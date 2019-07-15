@@ -1,0 +1,1 @@
+alert('vue_leaflet');

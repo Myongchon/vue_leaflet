@@ -1,0 +1,33 @@
+{
+  "name": "vue_leaflet",
+  "version": "0.0.1",
+  "description": "webgis项目demo:模仿链家找房功能",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack",
+    "example": "http-server -p 8880"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Myongchon/vue_leaflet.git"
+  },
+  "keywords": [
+    "leaflet"
+  ],
+  "author": "https://github.com/Myongchon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Myongchon/vue_leaflet/issues"
+  },
+  "homepage": "https://github.com/Myongchon/vue_leaflet#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
+  }
+}
